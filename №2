@@ -1,0 +1,9 @@
+print("--- Завдання 2 ---")
+text = input("Введіть рядок: ")
+clean_text = ""
+
+for char in text:
+    if char.isalpha():
+        clean_text += char
+
+print(f"Результат: {clean_text}")
