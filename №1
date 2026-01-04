@@ -1,0 +1,8 @@
+print("--- Завдання 1 ---")
+text = input("Введіть рядок: ")
+
+if len(text) >= 2:
+    result = text[-2]
+    print(f"Передостанній символ: {result}")
+else:
+    print("Рядок занадто короткий.")
